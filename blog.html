@@ -1,175 +1,269 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-        <link href="styles.css" rel="stylesheet">
-        <title>Blog</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body class="blogbody">
-        <div class="container-fluid blog-container">
-          <header id="navbar">
-            <div class="logo">
-              <a href="index.css"><img alt="logo" src="images/logo.fw.png"></a>
-            </div>
-            <div class="navlink">
-              <nav class="navbar navbar-expand-sm navbar-dark">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="event.html">Events</a>
-                    </li>   
-                    <li class="nav-item">
-                      <a class="nav-link" href="about.html">About Us</a>
-                    </li>  
-                  </ul>
-              </div>
-            </nav>
-            </div>
-        </header>
+  
+  <head>
 
-            <div id="blog-image">
-                <img alt="article-image" src="images/agriculture-gf0881801c_1920.jpg">
-            </div>
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+  </head>
 
-            <div id="blog-content">
-                <div class="side-media">
-                    <ul>
-                        <li class="facebook"><a href="https://www.facebook.com">F</a></li>
-                        <li class="whatsapp"><a href="https://wwww.whatsapp.com">W</a></li>
-                        <li class="instagram"><a href="https://www.instagram.com">In</a></li>
-                        <li class="twitter"><a href="https://www.twitter.com">T</a></li>
-                        <li class="youtube"><a href="https://www.youtube.com">Y</a></li>
-                    </ul> 
-                </div>
-                <article>
-                    <h4>Lorem Ipsum</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor finibus magna sit amet consequat. 
-                      Vivamus sed accumsan mi. Proin porta vestibulum sapien, quis commodo metus varius quis. 
-                      Donec posuere diam felis, sit amet bibendum erat condimentum nec. Aliquam ultrices tincidunt massa eget bibendum. 
-                      Quisque eu ultricies nunc. Sed posuere dolor mauris, ac tristique diam viverra vulputate. 
-                      Fusce in nisi diam. Ut id ornare sapien. Ut sed magna et nibh volutpat ultricies ut sed nulla. 
-                      In a sodales turpis, a blandit risus. Duis cursus pulvinar consectetur. Maecenas dictum vel neque a rutrum. 
-                      Mauris rutrum vitae sem elementum porttitor.
-                      </p>
-                      <img alt="post-image" class="postimg" src="images/bird-gd2392eb11_1920.jpg">
-                      <a href="#more" data-bs-toggle="collapse">Read More</a>
-                      <div id="more" class="collapse">
-                      Sed et nulla id enim fringilla tristique et fermentum sem. Maecenas mattis lectus est, sit amet rutrum tortor pretium eu. 
-                      Pellentesque pretium sem eget urna porta, a eleifend tortor vehicula. 
-                      Vestibulum sed felis blandit, fringilla metus quis, finibus massa. Praesent eu tincidunt odio. 
-                      Nulla rhoncus justo in dolor tempus efficitur. Nunc rhoncus nisl mi, at pellentesque mauris pharetra nec. 
-                      Ut leo ante, pretium nec pretium quis, dapibus ut arcu. Donec interdum, ante ut iaculis lobortis, arcu ex fringilla eros, 
-                      quis sagittis libero ante eu enim. Morbi hendrerit dapibus magna sed blandit. 
-                      In hac habitasse platea dictumst. In eget rutrum enim, vitae eleifend sem. Ut at velit sed dui ornare mollis. 
-                      Vestibulum mi ex, maximus sed tincidunt in, fermentum eu arcu. Nulla porta elementum placerat.
-                      </div>
-                </article>
-                
-                <aside class="sidebar">
-                    <div>
-                        <form>
-                            <input type="text" class="blog-search" placeholder="Search"> <br>
-                            <button type="button" class="btn btn-secondary btn-sm newssend">Search</button>
-                        </form>
-                    </div>
-                    <div id="article-link">
-                        <ul>
-                            <li><a href="">Recent</a></li>
-                            <li><a href="">Lore ipsum</a></li>
-                            <li><a href="">Lore ipsum</a></li>
-                            <li><a href="">Lore ipsum</a></li>
-                            <li><a href="">Lore ipsum</a></li>
-                        </ul>
-                    </div>
-                    <div id="advert">
-                        <img alt="slide" src="images/PO-0029.png" id="slide_img" />
-                    </div>
-                </aside>
-            </div>
+  <body class="blogbody">
 
-            <div id="footer">
-              <div class="links">
-                <table class="table">
-                  <tr>
-                    <td>
-                      <ul>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                      </ul>
-                    </td>
-                    
-                    <td>
-                      <ul>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                      </ul>
-                    </td>
-                    <td>
-                      <ul>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                      </ul>
-                    </td>
-                    </tr>
-                    </table>
-                  </div>
+    <div class="container-fluid blog-container">
 
-                  <aside class="media">
-                    <ul>
-                      <li><a href="https://www.facebook.com"><img alt="facebook" src="images/facebook.png"></a></li>
-                      <li><a href="https://wwww.whatsapp.com"><img alt="whatsapp" src="images/whatsapp.png"></a></li>
-                      <li><a href="https://www.instagram.com"><img alt="instagram" src="images/instagram.png"></a></li>
-                      <li><a href="https://www.twitter.com"><img alt="Twitter" src="images/twitter.png"></a></li>
-                      <li><a href="https://www.youtube.com"><img alt="Youtube" src="images/youtube.fw.png"></a></li>
-                    </ul>
-                    <form>
-                      <input type="text" class="newsmail" placeholder="Newsletter">
-                      <br>
-                      <button type="submit" class="btn btn-secondary btn-sm newssend">Subscribe</button>
-                    </form>
-                  </aside>
-                  
-                </div>
+    <!-----------------Navigation bar------------------->
 
-                <footer>
-                  Save the earth 2022.
-                </footer>
+    <header id="navbar">
 
-            <script>
-              window.onscroll = function() {scrollFunction()};
-              function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                  document.getElementById("navbar").style.top = "0";
-                } 
-                else {
-                  document.getElementById("navbar").style.top = "-50px";
-                }
-              }
-              
-            </script>
-            <script src="slider.js"></script>
+      <div class="logo">
+        <a href="index.css"><img alt="logo" src="images/logo.fw.png"></a>
+      </div>
+
+      <div class="navlink">
+
+        <nav class="navbar navbar-expand-sm navbar-dark">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="event.html">Events</a>
+              </li> 
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+
+            </ul>
+  
+          </div>
+
+        </nav>
+
+      </div>
+
+    </header>
+
+    <!---------------------Blog major image------------------------->
+
+    <div id="blog-image">
+
+      <img alt="article-image" src="images/agriculture-gf0881801c_1920.jpg">
+
+    </div>
+
+    <!------------------------Blog Content------------------------------>
+    <div id="blog-content">
+
+      <!--------------Social Media icon side bar--------------->
+
+      <div class="side-media">
+
+        <ul>
+
+          <li class="facebook"><a href="https://www.facebook.com">F</a></li>
+          <li class="whatsapp"><a href="https://wwww.whatsapp.com">W</a></li>
+          <li class="instagram"><a href="https://www.instagram.com">In</a></li>
+          <li class="twitter"><a href="https://www.twitter.com">T</a></li>
+          <li class="youtube"><a href="https://www.youtube.com">Y</a></li>
+
+        </ul> 
+
+      </div>
+
+      <!-------------------------Blog major content------------------------>
+      <article>
+
+        <h4>Lorem Ipsum</h4>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor finibus magna sit amet consequat. 
+          Vivamus sed accumsan mi. Proin porta vestibulum sapien, quis commodo metus varius quis. 
+          Donec posuere diam felis, sit amet bibendum erat condimentum nec. Aliquam ultrices tincidunt massa eget bibendum. 
+          Quisque eu ultricies nunc. Sed posuere dolor mauris, ac tristique diam viverra vulputate. 
+          Fusce in nisi diam. Ut id ornare sapien. Ut sed magna et nibh volutpat ultricies ut sed nulla. 
+          In a sodales turpis, a blandit risus. Duis cursus pulvinar consectetur. Maecenas dictum vel neque a rutrum. 
+          Mauris rutrum vitae sem elementum porttitor.
+        </p>
+
+        <img alt="post-image" class="postimg" src="images/bird-gd2392eb11_1920.jpg">
+
+        <a href="#more" data-bs-toggle="collapse">Read More</a>
+
+        <div id="more" class="collapse">
+          Sed et nulla id enim fringilla tristique et fermentum sem. Maecenas mattis lectus est, sit amet rutrum tortor pretium eu. 
+          Pellentesque pretium sem eget urna porta, a eleifend tortor vehicula. 
+          Vestibulum sed felis blandit, fringilla metus quis, finibus massa. Praesent eu tincidunt odio. 
+          Nulla rhoncus justo in dolor tempus efficitur. Nunc rhoncus nisl mi, at pellentesque mauris pharetra nec. 
+          Ut leo ante, pretium nec pretium quis, dapibus ut arcu. Donec interdum, ante ut iaculis lobortis, arcu ex fringilla eros, 
+          quis sagittis libero ante eu enim. Morbi hendrerit dapibus magna sed blandit. 
+          In hac habitasse platea dictumst. In eget rutrum enim, vitae eleifend sem. Ut at velit sed dui ornare mollis. 
+          Vestibulum mi ex, maximus sed tincidunt in, fermentum eu arcu. Nulla porta elementum placerat.
         </div>
-    </body>
+
+      </article>
+          
+      <!------------------------Blog side bar navigation------------------------>
+      <aside class="sidebar">
+
+        <!------------------Blog Search Bar--------------------->
+        <div>
+
+          <form>
+            <input type="text" class="blog-search" placeholder="Search"> <br>
+            <button type="button" class="btn btn-secondary btn-sm newssend">Search</button>
+          </form>
+
+        </div>
+
+        <!---------------------Blog Article Link------------------>
+        <div id="article-link">
+
+          <ul>
+
+            <li><a href="">Recent</a></li>
+            <li><a href="">Lore ipsum</a></li>
+            <li><a href="">Lore ipsum</a></li>
+            <li><a href="">Lore ipsum</a></li>
+            <li><a href="">Lore ipsum</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-----------------Advertisement Section------------------->
+        <div id="advert">
+          <img alt="slide" src="images/PO-0029.png" id="slide_img" />
+        </div>
+
+      </aside>
+
+    </div>
+
+    <!--------------------Foot Section-------------------->
+    <div id="footer">
+
+      <div class="links">
+
+        <table class="table">
+
+          <tr>
+
+            <td>
+
+              <ul>
+
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+
+              </ul>
+
+            </td>
+                    
+            <td>
+
+              <ul>
+
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+
+              </ul>
+
+            </td>
+
+            <td>
+
+              <ul>
+
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+
+              </ul>
+
+            </td>
+
+          </tr>
+
+        </table>
+
+      </div>
+
+      <!-----------------------Social Media Icon----------------------->
+      <aside class="media">
+
+        <ul>
+
+          <li><a href="https://www.facebook.com"><img alt="facebook" src="images/facebook.png"></a></li>
+          <li><a href="https://wwww.whatsapp.com"><img alt="whatsapp" src="images/whatsapp.png"></a></li>
+          <li><a href="https://www.instagram.com"><img alt="instagram" src="images/instagram.png"></a></li>
+          <li><a href="https://www.twitter.com"><img alt="Twitter" src="images/twitter.png"></a></li>
+          <li><a href="https://www.youtube.com"><img alt="Youtube" src="images/youtube.fw.png"></a></li>
+
+        </ul>
+
+        <form>
+
+          <input type="text" class="newsmail" placeholder="Newsletter">
+          <br>
+          <button type="submit" class="btn btn-secondary btn-sm newssend">Subscribe</button>
+
+        </form>
+
+      </aside>
+                  
+    </div>
+
+    <footer>
+      Save the earth 2022.
+    </footer>
+
+    <!------------script for nav bar hide and show on scrolling down page------------>
+    <script>
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.top = "0";
+        } 
+        else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+      }
+              
+    </script>
+
+    <script src="slider.js"></script>
+
+    </div>
+
+  </body>
+
 </html>

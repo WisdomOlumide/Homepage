@@ -164,7 +164,7 @@ a:active{
         color:#ffff00;
     }
     39%{
-        color:#008000;
+        color:#800064;
     }
     52%{
         color:#0000ff;
@@ -252,60 +252,74 @@ a:active{
     width:90%;
     margin:auto;
 }
-    /* ----- Blog side Media links -------------*/
-    .side-media{
-        position:fixed;
-        text-align:center;
-        color:#fff;
-        width:30px;
-        left:0px;
-        top:260px;
-    }
-    .side-media a{
-        color:#fff;
-    }
-    .facebook{
-        background-color:#4267B2;
-    }
-    .whatsapp{
-        background-color:green;
-    }
-    .instagram{
-        background-color:#fbad50;
-    }
-    .twitter{
-        background-color:#00ACEE;
-    }
-    .youtube{
-        background-color:#FF0000;
-    }
-    ul{
-        padding:0;
-        margin:0;
-        list-style:none;
-    }
-    .side-media ul{
-        width:100%;
-    }
-    .side-media li{
-        width:100%;
-        opacity:0.7;
-    }
-    .side-media li:hover{
-        opacity:1;
-        transition:1s;
-        font-weight:bolder;
-    }
-    #blog-content{
-        width:100%;
-        border-top:#000 5px solid;
-        display:flex;
-        transition: ease-in-out 2s;
-        background-color:#fff;
-        flex-direction:row;
-        flex-wrap:wrap;
-    }
-    /* media link ends here */
+/* ----- Blog side Media links -------------*/
+
+.side-media{  
+    position:fixed;
+    text-align:center;
+    color:#fff;
+    width:30px;
+    left:0px;
+    top:260px;
+}
+
+.side-media a{
+    color:#fff;
+}
+
+.facebook{
+    background-color:#4267B2;
+}
+
+.whatsapp{
+    background-color:green;
+}
+
+.instagram{
+    background-color:#fbad50;
+}
+    
+.twitter{
+    background-color:#00ACEE;
+}
+    
+.youtube{
+    background-color:#FF0000;
+}
+    
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.side-media ul{
+    width:100%;
+}
+    
+.side-media li{
+    width:100%;
+    opacity:0.7;
+}
+    
+.side-media li:hover{
+    opacity:1;
+    transition:1s;
+    font-weight:bolder;
+}
+    
+#blog-content{
+    width:100%;
+    border-top:#000 5px solid;
+    display:flex;
+    transition: ease-in-out 2s;
+    background-color:#fff;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+    
+/*------------- media link ends here ----------------*/
+
 article{
     width:70%;
     text-align:justify;
@@ -315,17 +329,21 @@ article{
     padding:20px 10px 10px 10px;
     line-height:30px;
 }
+
 .blog-search{
     width:100%;
 }
+
 .postimg{
     width:100%;
     height:400px;
 }
+
 article h4{
     text-align:center;
     
 }
+
 #article-link{
     margin:120px 0px 120px 0px;
     width:100%;
@@ -390,6 +408,7 @@ article a{
     background-color:#333;
     overflow:hidden;
 }
+
 #buttons img{
     width:7px;
     height:7px;
@@ -401,6 +420,7 @@ article a{
 
 /* ------------ About us additional css ------------- */
 /* about page and event page uses same navbar css */
+
 .static-nav{
     width:100%;
     position:fixed;
@@ -412,6 +432,7 @@ article a{
     z-index:1;
     display:inline-flex;
 }
+
 .static-nav a {
     display:inline-flex;
     color: #f2f2f2;
@@ -425,6 +446,7 @@ article a{
     Border-bottom:#008C00 1px solid;
     transition:1s;
 }
+
 .green-bg{
     margin:0;
     width:100%;
@@ -436,6 +458,7 @@ article a{
     text-align:center;
     margin-top:60px;
 }
+
 .about-mid-container{
     width:100%;
     border-top:#000 5px solid;
@@ -443,15 +466,19 @@ article a{
     text-align:center;
     background-color:green;
 }
+
 .about-mid-container h5{
     text-transform:uppercase;
     color:#000;
     font-weight:bolder;
 }
+
 .about-mid-container p{
     padding:30px;
 }
+
 /* ----- additional css for events page ------- */
+
 .event-mid-container{
     width:100%;
     margin:0;
@@ -497,7 +524,8 @@ article a{
     width:100%;
     height:400px;
 }
-/*==================services section==================*/
+
+/*--------------------services section------------------*/
 footer::before{
     clear:both;
 }
@@ -604,7 +632,7 @@ footer{
     }
 }
 
-/* ------ rwd role -------- */
+/* ---------------- RWD Role ----------------- */
 
 @media only screen and (max-width:1300px){
     .blog-container{
@@ -634,7 +662,7 @@ footer{
         transition:2s;
     }
 }
-/*=========further-mobile======*/
+/*---------------further RWD-mobile compatibility-------------*/
 @media only screen and (max-width:750px){
     .carousel-inner img{
         height:500px;
